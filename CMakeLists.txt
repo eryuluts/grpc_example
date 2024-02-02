@@ -4,8 +4,6 @@ project(grpc_test
     LANGUAGES CXX
 )
 
-set(CMAKE_PREFIX_PATH ${CMAKE_SOURCE_DIR}/third_party/install)
-
 find_package(Protobuf CONFIG REQUIRED)
 find_package(gRPC CONFIG REQUIRED)
 
